@@ -1,7 +1,9 @@
 #write your code here
 
 def countdown
-  while x < 10
-  puts "HAPPY NEW YEAR!"
-  x += 1
+  number = get.chomp
+  while number > 0
+  puts "#{number} SECOND(S)!"
+  x -= 1
+  puts ""
 end
